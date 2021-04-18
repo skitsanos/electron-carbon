@@ -1,0 +1,38 @@
+{
+  "name": "umi-electron-app",
+  "version": "1.0.0",
+  "author": {
+    "name": "Skitsanos",
+    "url": "https://skitsanos.com"
+  },
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@carbon/icons-react": "^10.30.0",
+    "ahooks": "^2.10.0",
+    "carbon-components": "^10.33.0",
+    "carbon-components-react": "^7.33.0",
+    "carbon-icons": "^7.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "scripts": {
+    "rebuild-deps": "electron-builder install-app-deps",
+    "electron:init": "umi electron init",
+    "electron:dev": "NODE_ENV=development && umi dev electron",
+    "electron:build:win": "umi build electron --win",
+    "electron:build:mac": "umi build electron --mac",
+    "electron:build:linux": "umi build electron --linux"
+  },
+  "devDependencies": {
+    "@types/carbon-components-react": "^7.31.0",
+    "@types/carbon__icons-react": "^10.28.0",
+    "@types/node": "^14.6.2",
+    "@types/react": "^17.0.3",
+    "@umijs/preset-react": "^1.8.4",
+    "electron": "^12.0.4",
+    "electron-builder": "^22.10.5",
+    "umi": "^3.4.8",
+    "umi-plugin-electron-builder": "^2.0.4"
+  }
+}
