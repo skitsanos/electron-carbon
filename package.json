@@ -13,8 +13,8 @@
     "carbon-components": "^10.33.0",
     "carbon-components-react": "^8.13.0",
     "carbon-icons": "^7.0.7",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "scripts": {
     "rebuild-deps": "electron-builder install-app-deps",
@@ -28,7 +28,7 @@
     "@types/carbon-components-react": "^7.31.0",
     "@types/carbon__icons-react": "^11.0.0",
     "@types/node": "^24.0.0",
-    "@types/react": "^17.0.3",
+    "@types/react": "^19.0.0",
     "@umijs/preset-react": "^2.0.0",
     "electron": "^40.0.0",
     "electron-builder": "^26.0.0",
