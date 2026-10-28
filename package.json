@@ -27,7 +27,7 @@
   "devDependencies": {
     "@types/carbon-components-react": "^7.31.0",
     "@types/carbon__icons-react": "^11.0.0",
-    "@types/node": "^24.0.0",
+    "@types/node": "^26.0.0",
     "@types/react": "^19.0.0",
     "@umijs/preset-react": "^2.0.0",
     "electron": "^45.0.0",
